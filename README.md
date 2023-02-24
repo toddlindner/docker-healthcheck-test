@@ -1,11 +1,12 @@
 To build
 
-podman build --format Docker -f ./Dockerfile -t testbuild
-podman run --rm -p 8080:80 testbuild
+    podman build --format Docker -f ./Dockerfile -t testbuild
+    podman run --rm -p 8080:80 testbuild
+
 
 http://localhost:8080
 
-podman ps
+    podman ps 
   will show "healthy"
 
 
